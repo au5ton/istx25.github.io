@@ -48,7 +48,7 @@ h1 {
   font-size: 20px; }
 
 .fa {
-  margin: 20px; }
+  margin: 15px; }
 
 .hidden {
   display: none; }
@@ -73,6 +73,9 @@ a:hover {
 
 .twitter:hover {
   color: #55acee; }
+
+.instagram:hover {
+  color: #517fa4; }
 
 @media (max-width: 320px) {
   html,
