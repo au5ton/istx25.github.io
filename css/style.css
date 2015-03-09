@@ -48,7 +48,7 @@ h1 {
   font-size: 20px; }
 
 .fa {
-  margin: 15px; }
+  margin: 20px; }
 
 .hidden {
   display: none; }
@@ -102,4 +102,6 @@ a:hover {
     height: 100px;
     width: 100px;
     background-size: 100px 100px;
-    margin-bottom: 0px; } }
+    margin-bottom: 0px; }
+
+  margin: 15px; }
