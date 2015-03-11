@@ -51,7 +51,7 @@ h1 {
   font-size: 1.5em;
 }
 .social {
-  font-size: 1.5em;
+  font-size: 1.0em;
 }
 .social-top {
   display: none;
@@ -109,10 +109,10 @@ a:hover {
     padding-right: 7px;
   }
   .social {
-    font-size: 1.1em;
+    font-size: 0.8em;
   }
   .social .fa {
-    margin: 18px;
+    margin: 14px;
   }
   .social-top {
     display: block;
