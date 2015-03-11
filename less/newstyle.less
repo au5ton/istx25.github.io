@@ -1,0 +1,162 @@
+body {
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    color: rgba(0, 0, 0, 0.4);
+    -webkit-font-smoothing: antialiased;
+    padding-top: 100px;
+    font-size: 12pt;
+    //Default font sized, all `font-size`s are set based on a ratio of this with `em` CSS units
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+    font-weight: 400; 
+}
+
+ul {
+    list-style-type: none; 
+}
+
+li {
+    display: inline; 
+}
+
+.structure {
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.profile {
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 0px;
+    margin-top: 5px;
+    background: #F3F3F3;
+    background: url("https://pbs.twimg.com/profile_images/570871858028941312/MPGCKwt_.jpeg") no-repeat;
+    background-size: 200px 200px;
+    border-radius: 100px; 
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 35px;
+    font-size: 3.0em; 
+}
+
+.description {
+    padding-bottom: 30px;
+    padding-top: 20px;
+    font-size: 1.5em; 
+}
+
+.social {
+    //Make icons a little smaller for mobile devices
+    font-size: 1.5em;
+}
+
+.social-top {
+    display: none;
+}
+
+.social-bottom {
+    display: none;
+    margin-bottom: 25px;
+}
+
+.social-desktop {
+    display: block;
+}
+
+.fa {
+    margin: 18px; 
+}
+
+.hidden {
+    display: none; 
+}
+
+a {
+    color: rgba(0, 0, 0, 0.4);
+    text-decoration: none;
+    font-weight: 700; 
+}
+
+a:hover {
+    color: #55acee;
+    text-decoration: none; 
+}
+
+.dribbble:hover {
+    color: #ea4c89; 
+}
+
+.github:hover {
+    color: black;
+}
+
+.medium:hover {
+    color: black;
+}
+
+.twitter:hover {
+    color: #55acee;
+}
+
+.instagram:hover {
+    color: #517fa4;
+}
+
+@media (max-width: 414px) {
+    
+    .profile {
+        width: 125px;
+        height: 125px;
+        background-size: 125px 125px;
+        border-radius: 125px; 
+    }
+    
+    h1 {
+        font-size: 2.0em;
+    }
+    
+    .description {
+        font-size: 1.15em;
+        padding-left: 7px;
+        padding-right: 7px;
+    }
+    
+    .social {
+        font-size: 1.1em;
+        
+        .fa {
+            margin: 18px;
+        }
+        
+    }
+    .social-top {
+        display: block;
+        .fa {
+            margin-bottom: 6px;
+        }
+    }
+    
+    .social-bottom {
+        display: block;
+        .fa {
+            margin-top: 6px;
+        }
+    }
+    
+    .social-desktop {
+        display: none;
+    }
+}
